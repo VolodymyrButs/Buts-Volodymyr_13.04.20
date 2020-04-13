@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "parcel-bundler": "^1.12.4",
+        "redux": "^4.0.5"
+    },
+    "scripts": {
+        "develop": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "name": "test_prog_forse",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+}

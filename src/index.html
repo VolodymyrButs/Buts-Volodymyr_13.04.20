@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <div class="mainWraper">
+        <div class="container">
+
+            <div class="moviesGaleryWraper">
+                <h2 class="title">Movies List</h2>
+                <select class="filter">
+                    <option class="noFilter">No filter</option>
+                </select>
+                <ul class="moviesGalery"></ul>
+            </div>
+            <div class="favoriteListWraper">
+                <h2 class="title">Favorite List</h2>
+                <div class="favoriteList"></div>
+            </div>
+        </div>
+        <div class="backPlate">
+            <div class="modal">
+                <div class="leftModal">
+                    <img class="imgModal" />
+                    <button class="buttonFavModal"></button>
+                    <p class="yearModal"></p>
+                    <div class="genresWraperModal"></div>
+                </div>
+                <div class="rightModal">
+
+                    <h2 class="nameNodal"></h2>
+                    <p class="descriptionModal"></p>
+                    <p class="directorModal"></p>
+                    <div class="starringWraperModal"> </div>
+                </div>
+                <button class="closeButton">X</button>
+            </div>
+        </div>
+        <script src='/scripts/index.js'></script>
+</body>
+
+</html>
